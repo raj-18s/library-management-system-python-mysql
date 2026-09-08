@@ -3,7 +3,7 @@ from datetime import date
 con=mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Rajs727571@",
+    password="db_password",
     database="library_db"
 )
 cursor=con.cursor()
